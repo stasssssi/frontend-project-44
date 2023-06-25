@@ -1,14 +1,15 @@
 {
-  "name": "part2",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/stasssssi/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/stasssssi/frontend-project-44/actions)",
   "main": "index.js",
   "bin": {
-    "part2": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "NASTYA",
+  "license": "ISC",
+  "type": "module"
 }
