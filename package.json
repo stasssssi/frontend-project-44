@@ -1,24 +1,29 @@
 {
   "name": "@hexlet/code",
+  "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/stasssssi/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/stasssssi/frontend-project-44/actions)",
+  "description": "",
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "NASTYA",
+  "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
+    "ci": "^2.3.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^8.43.0"
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
   }
 }
